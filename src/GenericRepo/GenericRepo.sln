@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepo", "GenericRepo\GenericRepo.csproj", "{A22D4604-195E-4118-995D-E7D45D8CA490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepository.Tests", "GenericRepository.Tests\GenericRepository.Tests.csproj", "{70BDA0B1-6FAC-4C8E-B749-043243E8887A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A22D4604-195E-4118-995D-E7D45D8CA490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22D4604-195E-4118-995D-E7D45D8CA490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22D4604-195E-4118-995D-E7D45D8CA490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22D4604-195E-4118-995D-E7D45D8CA490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70BDA0B1-6FAC-4C8E-B749-043243E8887A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BDA0B1-6FAC-4C8E-B749-043243E8887A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BDA0B1-6FAC-4C8E-B749-043243E8887A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BDA0B1-6FAC-4C8E-B749-043243E8887A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
