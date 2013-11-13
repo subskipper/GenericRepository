@@ -7,7 +7,7 @@ namespace GenericRepo
     public class PersonRepository : IRepository<Person>
     {
 
-        private static List<Person> m_PersonCollection = new List<Person>(); 
+        private List<Person> m_PersonCollection = new List<Person>(); 
 
         public void Add(Person item)
         {
@@ -16,7 +16,7 @@ namespace GenericRepo
 
         public void Remove(Person item)
         {
-            throw new NotImplementedException();
+            m_PersonCollection.Remove(item);
         }
 
         public IQueryable<Person> GetAll()
@@ -27,6 +27,11 @@ namespace GenericRepo
         public Person GetById(Guid id)
         {
             return m_PersonCollection.FirstOrDefault(p => p.Id == id);
+        }
+
+        public int GetCount()
+        {
+            return m_PersonCollection.Count();
         }
     }
 

@@ -9,5 +9,6 @@ namespace GenericRepo
         void Remove(T item);
         IQueryable<T> GetAll();
         T GetById(Guid id);
+        int GetCount();
     }
 }
